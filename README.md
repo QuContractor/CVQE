@@ -11,6 +11,11 @@ to solve a group of related Hamiltonians more efficiently.
 A brief introduction for VQE can be found in [QuContractor's github repository.](https://github.com/QuContractor/VQE_tutorial/)
 
 ### Simulate molecules with varied bond lengths
+
+
+
+<img src="figs/fig1_1.jpg" alt="energies" style="zoom: 50%;" />
+
 We simulated different molecules (H2, LiH, HeH+) with CVQE. Numeral simulations show that the CVQE exhibits clear collective behavior in the optimization process of updating parameters. 
 
 * The calculation for H2 can be found in [CVQE_H2 with HiQ/projectQ](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_pjq.ipynb), and [CVQE_H2 with IBM Qiskit](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_IBM.ipynb)
