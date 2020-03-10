@@ -28,7 +28,7 @@ We simulated different molecules (H2, LiH, HeH+) with CVQE. Numeral simulations 
 
 
 
-<img src="figs/fig5.jpg" alt="energies" style="zoom: 40%;" />
+<img src="figs/fig5.jpg" alt="energies" width = "500" />
 
 The snake algorithm gives rise to collective motion of parameters of different tasks
 that can avoid being trapped in local minimums. 
