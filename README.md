@@ -18,24 +18,20 @@ A brief introduction for VQE can be found in [QuContractor's github repository.]
 
 We simulated different molecules (H2, LiH, HeH+) with CVQE. Numeral simulations show that the CVQE exhibits clear collective behavior in the optimization process of updating parameters. 
 
+The numerical simulations are mostly performed by using the [Huawei HiQ simulator framework](https://hiq.huaweicloud.com/). 
 
-
-* The calculation for H2 can be found in [CVQE_H2 with HiQ/projectQ](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_pjq.ipynb), and [CVQE_H2 with IBM Qiskit](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_IBM.ipynb)
+* The calculation for H2 can be found in [CVQE_H2](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_pjq.ipynb), and [CVQE_H2 with IBM Qiskit](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_IBM.ipynb)
 * The calculation for LiH can be found in [CVQE_LiH](https://github.com/QuContractor/CVQE/blob/master/LiH/snake_VQE_LiH.ipynb)
 * The calculation for HeH+ can be found in [CVQE_HeH+](https://github.com/QuContractor/CVQE/blob/master/HeH%2B/snake_VQE_HeH.ipynb)
 
 ### Avoid local minimum
 
-
-
-<img src="figs/fig5.jpg" alt="energies" width = "500" />
+<img src="figs/fig5.jpg" alt="local_mini" width = "500" />
 
 The snake algorithm gives rise to collective motion of parameters of different tasks
 that can avoid being trapped in local minimums. 
 
 The example with H2 can be found in [CVQE_H2](https://github.com/QuContractor/CVQE/blob/master/H2/snake_VQE_H2_2theta.ipynb).
-
-
 
 ### Cite:
 
